@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI GovAssistant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <!-- Hero Section -->
+    <section class="relative bg-cover bg-center h-screen flex items-center justify-center text-white" style="background-image: url('https://img.freepik.com/vector-gratis/personas-reuniones-negocios-oficina-horizontal-plana_1284-31716.jpg?t=st=1741423347~exp=1741426947~hmac=d0d9425027a84fd96c17b5bc2205d3ef3fb263cd1c72c701a58b7ed9f0b6c68e&w=1380');">
+        <div class="bg-black bg-opacity-60 p-12 rounded-lg text-center max-w-3xl">
+            <h1 class="text-6xl font-bold mb-6 text-yellow-400">AI GovAssistant</h1>
+            <p class="text-xl mb-6">Tu asistente inteligente para trámites administrativos, rápido, fácil y accesible.</p>
+            <a href="#contacto" class="bg-yellow-400 text-black px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-500 transition">Contáctanos</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-20 px-6 text-center bg-white">
+        <h2 class="text-5xl font-bold mb-8 text-blue-600">¿Qué es AI GovAssistant?</h2>
+        <p class="text-lg max-w-4xl mx-auto">Una guía interactiva con IA generativa que ayuda a los ciudadanos a encontrar información sobre trámites gubernamentales de manera rápida y sencilla. Con asistencia 24/7, AI GovAssistant te orienta sobre los documentos necesarios, plazos y organismos responsables.</p>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20 bg-gray-100 px-6 text-center">
+        <h2 class="text-5xl font-bold mb-8 text-blue-600">Beneficios Clave</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12 max-w-5xl mx-auto">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-2xl font-bold mb-2 text-gray-800">Información Centralizada</h3>
+                <p>Accede a todos los trámites en un solo lugar sin perder tiempo.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-2xl font-bold mb-2 text-gray-800">Interacción en Lenguaje Natural</h3>
+                <p>Consulta trámites sin necesidad de términos técnicos.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-2xl font-bold mb-2 text-gray-800">Atención 24/7</h3>
+                <p>Disponible en cualquier momento, sin importar el horario.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="py-20 px-6 text-center bg-white">
+        <h2 class="text-5xl font-bold mb-8 text-blue-600">¿Cómo Funciona?</h2>
+        <div class="max-w-5xl mx-auto">
+            <p class="text-lg mb-4">1. Describe tu necesidad en lenguaje natural (Ej. "Necesito renovar mi DNI").</p>
+            <p class="text-lg mb-4">2. La IA analiza la solicitud y encuentra el trámite adecuado.</p>
+            <p class="text-lg mb-4">3. Recibe una guía detallada con pasos exactos, documentos y enlaces oficiales.</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 px-6 bg-gray-100 text-center">
+        <h2 class="text-5xl font-bold mb-8 text-blue-600">Lo Que Dicen Nuestros Usuarios</h2>
+        <p class="text-lg italic max-w-4xl mx-auto mb-4">"Gracias a AI GovAssistant, pude encontrar toda la información que necesitaba en minutos y sin complicaciones. Un servicio increíble!"</p>
+        <p class="text-lg font-semibold">- Sofía Ramírez, Profesionista Expatriada</p>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contacto" class="py-20 px-6 bg-white text-center">
+        <h2 class="text-5xl font-bold mb-8 text-blue-600">Contáctanos</h2>
+        <form action="ENDPOINT_AQUI" method="POST" class="max-w-xl mx-auto bg-gray-100 p-8 rounded-lg shadow-lg">
+            <div class="mb-4">
+                <label class="block text-gray-700 font-bold mb-2">Nombre</label>
+                <input type="text" name="nombre" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400" required>
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 font-bold mb-2">Correo Electrónico</label>
+                <input type="email" name="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400" required>
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 font-bold mb-2">Mensaje</label>
+                <textarea name="mensaje" rows="4" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400" required></textarea>
+            </div>
+            <button type="submit" class="bg-blue-500 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-700 transition">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 bg-blue-800 text-white text-center">
+        <p>&copy; 2025 AI GovAssistant. Todos los derechos reservados.</p>
+        <p>Contacto: jmaguilarmartin@gmail.com</p>
+    </footer>
+</body>
+</html>
